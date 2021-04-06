@@ -6,10 +6,10 @@ public class CalculadoraController {
 	
 	public void resolverOperaciones() {
 		
-		int num1;
-		int num2;
-		num1=45;
-		num2=15;
+		float num1;
+		float num2;
+		num1=40;
+		num2=8;
 		
 		Calculadora nuevaCalculadora = new Calculadora();
 		
@@ -17,6 +17,7 @@ public class CalculadoraController {
 		nuevaCalculadora.setB(num2);
 		
 		System.out.println("El resultado de la suma es: "+ nuevaCalculadora.sumar());
+		System.out.println("El resultado de la division es: "+ nuevaCalculadora.dividirDosNumeros());
 	}
 
 }
